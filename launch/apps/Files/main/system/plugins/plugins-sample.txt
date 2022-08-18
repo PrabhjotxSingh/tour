@@ -1,0 +1,7 @@
+<script type="text/javascript">
+console.log("__________________________________________");
+console.log("This is a Tour plugin. Any .txt file containing code in this folder will be rendered by Tour.");
+console.log("Any type of file can be placed in plugin folder but Tour will only read .txt file. Folders can be used to hold plugin assets.");
+console.log("Folder for plugins is located in system/plugins. This sample plugin can be deleted.");
+console.log("__________________________________________");
+</script>
