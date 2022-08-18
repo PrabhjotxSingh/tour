@@ -1,0 +1,15 @@
+.menucontainer{
+	backdrop-filter: blur(5px);
+}
+.appbox {
+	backdrop-filter: blur(5px);
+}
+.topbar{
+	backdrop-filter: blur(5px);
+}
+.recentbox {
+	backdrop-filter: blur(5px);
+}
+.usermenucontent{
+	backdrop-filter: blur(5px);
+}

@@ -1,0 +1,109 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	margin: 0px;
+}
+.timestyle, .datestyle, .menucontainer, .menuhead, .menubar, .menubarclose, .appbox, .windowcontent, .topbar, .recentall, .closewindowfullybtn, .bubblewindowbtn, .usermenuall{
+	user-select: none;
+	-ms-user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+}
+h1{
+	font-weight: 300;
+}
+h2{
+	font-weight: 300;
+}
+h3{
+	font-weight: 300;
+}
+.loadingspin {
+	background-color: black;
+	border: 1px solid white;
+	height: 50px;
+	width: 50px;
+	-webkit-animation: loadingspina 3s infinite;
+	animation: loadingspina 3s infinite;
+}
+@keyframes loadingspina {
+	25% {
+		color: white;
+		background-color: black;
+	}
+	50% {
+		color: white;
+		border-radius: 30px;
+		transform:rotate(360deg);
+	}
+}
+div#load_screen{
+	background-color: #000;
+	opacity: 1;
+	position: fixed;
+	z-index:100;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+div#load_screen > div#loading{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	background-color: #000;
+	text-align: center;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+/* Begin screen */
+.starttrigger{
+	width: 100%;
+	height: 100%;
+	z-index: 20;
+	background-position: center;
+	background-size: cover;
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	margin:auto;
+	-webkit-transition: all .2s;
+	transition: all .2s;
+}
+.starttrigger:active{
+	background-color: black;
+	opacity: 0.5;
+}
+
+.centertime{
+	text-align: center;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.clicktostartmsg{
+	position: fixed;
+	bottom: 0;
+	padding: 5px;
+	left: 50%;
+	transform: translate(-50%, -00%);
+}
+
+#currentTime{
+	font-weight: 700;
+	font-size: 6em;
+	line-height: .1em;
+}

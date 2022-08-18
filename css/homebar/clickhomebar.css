@@ -1,0 +1,16 @@
+.menubar:active{
+	background-color: #7f8c8d;
+	cursor: pointer;
+}
+.menubarclose:active{
+	background-color: #7f8c8d;
+	cursor: pointer;
+}
+.closewindowfullybtn:active{
+	background-color: #7f8c8d;
+	cursor: pointer;
+}
+.bubblewindowbtn:active{
+	background-color: #fff;
+	cursor: pointer;
+}
