@@ -5,7 +5,7 @@
 <h3>Features:</h3>
 <p>-Create apps easily</p>
 <p>-Customizable</p>
-<p>Lightweight and easy to use</p>
+<p>-Lightweight and easy to use</p>
 <p>-Built in apps</p>
 
 <br />
