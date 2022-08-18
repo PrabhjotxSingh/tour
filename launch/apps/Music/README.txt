@@ -1,0 +1,1 @@
+Simple music player for Tour OS. Created to show easy app development for Tour OS.
